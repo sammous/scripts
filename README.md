@@ -8,10 +8,11 @@ Miscellaneous scripts written in different contexts.
 1. hide.py
 
 Code Example
-
+	
+	```python
 	def hide_emails(s):
 	return re.sub(regex_email,"<span class=\"\">[email hidden]</span>",s)
-	`python`
+	```
 
 Language : `python`
 
