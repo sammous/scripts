@@ -9,10 +9,10 @@ Miscellaneous scripts written in different contexts.
 
 Code Example
 	
-	```python
-	def hide_emails(s):
-	return re.sub(regex_email,"<span class=\"\">[email hidden]</span>",s)
-	```
+```python
+def hide_emails(s):
+return re.sub(regex_email,"<span class=\"\">[email hidden]</span>",s)
+```
 
 Language : `python`
 
